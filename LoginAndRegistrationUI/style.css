@@ -1,0 +1,120 @@
+body{
+    background-color:white;
+}
+
+.xyz{
+    display: flex;
+    width: 600px;
+    border: 1px solid #aaa8a8 ;
+    border-radius: 10px;
+    margin: auto;
+    -webkit-box-shadow: -5px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -5px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -5px 4px 5px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+}
+
+.login-page{
+    width: 100%;
+}
+
+.form{
+    background-color: #ffffff;
+    max-width: 360px;
+    padding: 30px;
+}
+
+.form input{
+   font-family: "Roboto", sans-serif;
+   outline: 1;
+   background: #ffffff;
+   width: 100%;
+   border:1px gray solid !important;
+   border-radius: 5px;
+   margin: 0 0 15px;
+   padding: 15px;
+   font-size: 12px;
+}
+
+input[name="button"]{
+    background-color: #056ed6;
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    color:white;
+}
+
+.fundooImage{
+    width: 100px;
+    height: 52px;
+    margin-left: 35%;
+}
+
+.registerImage{
+    width: 100px;
+    height: 52px;
+}
+
+.envolpe{
+    width: 200px;
+    object-fit: contain;
+}
+
+.form input[name="button"]:hover,.form input[name="button"]:active{
+    background: #547ebd;
+}
+
+.form i{
+    margin-left: -20px;
+    margin-bottom: -10px;
+    cursor: pointer;
+}
+
+.fa{
+    position: absolute;
+    cursor: pointer;
+    color: #999;
+    bottom: 180px;
+    left: 350px;
+}
+
+.fa.active{
+    color: midnightblue;
+}
+
+#nameerror{
+    color: red;
+    font-style: bold;
+    margin-top: 2px;
+}
+
+#emailerror{
+    color: red;
+    font-style: bold;
+}
+
+#passworderror{
+    color: red;
+    font-style: bold;
+}
+
+.message{
+    text-align: left;
+    font-size: 15px;
+}
+
+h3[name="signup"]{
+    margin:auto;
+    margin-left: 135px;
+    margin-top: 20x;
+}
+
+h5[name="continue"]{
+    margin-left: 110px;
+    font-weight: 200;
+}
+
+h5[name="emailInfo"]{
+    color: gray;
+}
+

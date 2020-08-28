@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <div class = "login-page">
+            <div class = "form">
+                <img class="fundooImage" src="googleimage.jpg">
+                <h3 name="signup">Sign in</h3>
+                <h5 name="continue">to continue to Gmail</h6>
+                <form class="login-form" action="successpage.html" method="POST"> 
+                    <input type="text" placeholder="Username or Phone" name="username" onkeyup="disableButton()">
+                    <input type="password" name="pwd" placeholder="Password" onkeyup="disableButton()">
+                    <span>
+                        <i class="fa fa-eye" id="eye"></i>
+                    </span>
+                    <input name="button" type="submit" value="LOGIN" disabled>
+                    <p class="message">Create Account <a href="registration.html">Register</a></p>
+                </form>
+                </div>
+        </div>  
+        <script>
+            var pwd = document.getElementsByName('pwd')[0];
+            var eye = document.getElementById('eye');
+            eye.addEventListener('click', togglePass);
+        </script>
+    </body>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+</html>

@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <div class="login-page">
+        <div class="xyz">
+            <div class="form">
+                <img class="registerImage" src="googleimage.jpg">
+                <h3 name="createaAccount">Create your Google Account</h3>
+                <form class="registration-form" onsubmit="return validation()" method="POST">
+                    <input type="text" name="username" placeholder="Name">
+                    <span id="nameerror" class="text-danger font-weight-bold"></span>
+                    <input type="text" name="useremail"
+                        placeholder="EmailId                                                           @gmail.com">
+                    <h5 name="emailInfo">You can use letters,numbers and periods</h5>
+                    <span id="emailerror" class="text-danger font-weight-bold"></span>
+                    <input type="password" name="userpassword" placeholder="Password">
+                    <span>
+                        <i class="fa fa-eye" id="eye"></i>
+                    </span>
+                    <span id="passworderror" class="text-danger"></span>
+                    <input name="button" type="submit" value="CREATE">
+                    <p class="message">Already Registered? <a href="login.html">Login</a></p>
+                </form>
+            </div>
+            <img class="envolpe" src="signup.png">
+        </div>
+    </div>
+    <script>
+        var pwd = document.getElementsByName('userpassword')[0];
+        var eye = document.getElementById('eye');
+        eye.addEventListener('click', togglePass);
+    </script>
+</body>
+
+</html>
